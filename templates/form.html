@@ -13,31 +13,31 @@
     <form action="{{url_for('predict_datapoint')}}" method="POST">
       <div class="form-group">
         <label for="carat" style="display: block; margin-bottom: 5px;">Carat:</label>
-        <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
       </div>
       <div class="form-group">
         <label for="depth" style="display: block; margin-bottom: 5px;">Depth:</label>
-        <input type="text" id="depth" name="depth" placeholder="Enter depth value (float)" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <input type="text" id="depth" name="depth" placeholder="Enter depth value (float)" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
       </div>
       <div class="form-group">
         <label for="table" style="display: block; margin-bottom: 5px;">Table:</label>
-        <input type="text" id="table" name="table" placeholder="Enter table value (float)" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <input type="text" id="table" name="table" placeholder="Enter table value (float)" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
       </div>
       <div class="form-group">
         <label for="x" style="display: block; margin-bottom: 5px;">x:</label>
-        <input type="text" id="x" name="x" placeholder="Enter x value (float)" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <input type="text" id="x" name="x" placeholder="Enter x value (float)" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
       </div>
       <div class="form-group">
         <label for="y" style="display: block; margin-bottom: 5px;">y:</label>
-        <input type="text" id="y" name="y" placeholder="Enter y value (float)" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <input type="text" id="y" name="y" placeholder="Enter y value (float)" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
       </div>
       <div class="form-group">
         <label for="z" style="display: block; margin-bottom: 5px;">z:</label>
-        <input type="text" id="z" name="z" placeholder="Enter z value (float)" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <input type="text" id="z" name="z" placeholder="Enter z value (float)" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
       </div>
       <div class="form-group">
         <label for="cut" style="display: block; margin-bottom: 5px;">Cut:</label>
-        <select id="cut" name="cut" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <select id="cut" name="cut" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
           <option value="">Select cut...</option>
           <option value="Fair">Fair</option>
           <option value="Good">Good</option>
@@ -48,7 +48,7 @@
       </div>
       <div class="form-group">
         <label for="color" style="display: block; margin-bottom: 5px;">Color:</label>
-        <select id="color" name="color" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <select id="color" name="color" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
           <option value="">Select color...</option>
           <option value="D">D</option>
           <option value="E">E</option>
@@ -61,7 +61,7 @@
       </div>
       <div class="form-group">
         <label for="clarity" style="display: block; margin-bottom: 5px;">Clarity:</label>
-        <select id="clarity" name="clarity" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
+        <select id="clarity" name="clarity" style="width: 90%; padding: 8px; border: 1px solid #ccc; border-radius: 3px;">
           <option value="">Select clarity...</option>
           <option value="I1">I1</option>
           <option value="SI2">SI2</option>
@@ -74,7 +74,7 @@
         </select>
       </div>
       <div style="clear: both;"></div>
-      <input type="submit" value="Submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: #fff; border: none; border-radius: 3px; cursor: pointer;">
+      <input type="submit" value="Submit" style="width: 90%; padding: 10px; background-color: #4CAF50; color: #fff; border: none; border-radius: 3px; cursor: pointer;">
     </form>
 
     <h2 style="text-align: center; margin-top: 20px;">THE PREDICTION IS:  {{results}}</h2>
